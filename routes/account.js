@@ -13,6 +13,8 @@ router.post('/', function(req, res, next) {
     //verify account was created
     console.log(account);
 
+    
+
     //reading accounts from data.json file and assigning user to accountData variable
     let accountData = fs.readFileSync('./data.json');
     
